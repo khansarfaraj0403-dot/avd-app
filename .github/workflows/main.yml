@@ -14,7 +14,7 @@ jobs:
       run: pip install -r requirments.txt
     
     - name: run test case
-      run: pytest --cov=calc --cov-report=term --cov-fail-under=70
+      run: pytest --cov=cal --cov-report=term --cov-fail-under=70
   deploy:
     runs-on: ubuntu-latest
     needs: build
